@@ -1,0 +1,50 @@
+.error_txt_size{
+    font-size: 11px !important;
+}
+.error_message{
+    font-size: 13px !important;
+	color:red;
+}
+
+#VideoUploadForm {
+	margin: 20px auto;
+	background: #eee;
+	border-radius: 10px;
+	padding: 15px;
+	height:85px;
+}
+
+.videoUploadView {
+}
+
+#progress {
+	position:relative;
+	border: 1px solid #ddd;
+	padding: 1px;
+	border-radius: 3px;
+	display: none; 
+}
+
+#bar { 
+	background-color: #B4F5B4; 
+	width:0%;
+	height:20px;
+	border-radius: 3px;
+ }
+
+.cancel_upload { 
+	position:relative;
+	color:#000;
+	padding:5px;
+	margin:5px;	
+	cursor:hand;
+	cursor:pointer;
+	text-align:right;
+	display: none; 
+ }
+.cancel_upload span { 
+	color:#ff0000;
+	font-size:14px;
+ }
+ 
+#percent { position:absolute; display:inline-block; top:3px; left:48%; }
